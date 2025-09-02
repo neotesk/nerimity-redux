@@ -1,0 +1,34 @@
+{
+    "name": "nerimity-redux",
+    "version": "1.0.0",
+    "description": "Cutting-edge client for https://github.com/Nerimity",
+    "keywords": [
+        "nerimity",
+        "instant-messaging",
+        "im-app"
+    ],
+    "homepage": "https://github.com/neotesk/nerimity-redux#readme",
+    "bugs": {
+        "url": "https://github.com/neotesk/nerimity-redux/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neotesk/nerimity-redux.git"
+    },
+    "license": "MIT",
+    "author": "neotesk",
+    "type": "commonjs",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node scripts/build.esbuild.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.9",
+        "esbuild-plugin-solid": "^0.6.0",
+        "esbuild-sass-plugin": "^3.3.1"
+    },
+    "dependencies": {
+        "solid-js": "^1.9.9"
+    }
+}
