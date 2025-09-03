@@ -5,7 +5,7 @@ const { sassPlugin }  = require( "esbuild-sass-plugin" );
 build( {
     entryPoints: [ "App.jsx" ],
     bundle: true,
-    outfile: "build/nerimity.app.js",
+    outfile: "dist/nerimity.app.js",
     minify: true,
     loader: {
         ".svg": "dataurl",

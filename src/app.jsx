@@ -5,10 +5,11 @@
     Open-Source, MIT License. Copyright (C) 2025-20xx Nerimity Team
 */
 
+import { Router } from "@solidjs/router";
+
 export default function App () {
     return (
-        <div>
-            <h1>Hello World!</h1>
-        </div>
+        <Router>
+        </Router>
     );
 }
