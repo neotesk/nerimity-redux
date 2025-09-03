@@ -6,10 +6,10 @@
 */
 
 import { Router } from "@solidjs/router";
+import HomeLayout from "./compos/HomeLayout";
 
 export default function App () {
     return (
-        <Router>
-        </Router>
+        <HomeLayout />
     );
 }

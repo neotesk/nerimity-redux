@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #202020;
+    --bounce: cubic-bezier(.2,1.86,.25,.99);
+}
+
+html {
+    background-color: var( --background-color );
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}

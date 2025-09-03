@@ -11,5 +11,15 @@ build( {
         ".svg": "dataurl",
     },
     logLevel: "info",
-    plugins: [ solidPlugin(), sassPlugin() ],
+    plugins: [
+        solidPlugin(),
+        sassPlugin( {
+            filter: /\.mo\.scss$/,
+            type: 'local-css'
+        } ),
+        sassPlugin( {
+            filter: /\.scss$/,
+            type: 'css'
+        } )
+    ],
 } ).catch( () => process.exit( 1 ) );
